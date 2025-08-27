@@ -1,0 +1,9 @@
+[package]
+name = "signature-checker"
+version = "0.1.0"
+edition = "2024"
+description = "A Rust tool for verifying digital signatures of Windows executable files (exe, dll, sys)."
+license = "MIT OR Apache-2.0"
+[dependencies]
+iced = { version = "0.13.1", features = ["tokio"] }
+tokio = { version = "1.0", features = ["full"] }
